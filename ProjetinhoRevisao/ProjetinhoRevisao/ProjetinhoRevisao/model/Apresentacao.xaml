@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProjetinhoRevisao.model.Apresentacao"
+             Title="{Binding nome}">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+                <Image Source="{Binding imagem}"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start" HeightRequest="150"/>
+
+                <Label Text="{Binding nome}"
+                VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand"
+                   FontAttributes="Bold"
+                   FontSize="Title"/>
+
+                <Label Text="{Binding caracteristica}"
+                   FontSize="Body"
+                   TextColor="Aquamarine"/>
+            
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Caracteristicas: "/>
+                    <Label Text="{Binding caracteristicas}" FontSize="12"
+                       TextColor="Red"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Peso: "/>
+                    <Label Text="{Binding Peso}" FontSize="12"
+                       TextColor="Red"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Altura: "/>
+                    <Label Text="{Binding altura}" FontSize="12"
+                       TextColor="Red"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Sexo: "/>
+                    <Label Text="{Binding sexo}" FontSize="12"
+                       TextColor="Red"/>
+                </StackLayout>
+
+
+            </StackLayout>
+            
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
