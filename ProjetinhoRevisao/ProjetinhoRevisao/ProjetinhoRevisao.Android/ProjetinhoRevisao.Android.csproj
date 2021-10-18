@@ -99,5 +99,23 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\gato.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\gato.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\gato.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\IndexDog.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\magrelinho.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Magrelinhomorreu.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

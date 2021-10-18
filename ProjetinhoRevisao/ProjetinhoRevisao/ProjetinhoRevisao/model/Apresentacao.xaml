@@ -48,6 +48,13 @@
                        TextColor="Red"/>
                 </StackLayout>
 
+                <Button Text="Próxima" Clicked="bt1" Margin="20" 
+                    HorizontalOptions="Center" FontAttributes="Bold"
+                    FontSize="18" Padding="20"
+                    BackgroundColor="LightGray"
+                    BorderWidth="2"
+                    BorderColor="Black"
+                    CornerRadius="8"/>
 
             </StackLayout>
             

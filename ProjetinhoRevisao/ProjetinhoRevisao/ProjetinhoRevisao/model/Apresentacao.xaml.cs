@@ -21,5 +21,10 @@ namespace ProjetinhoRevisao.model
             BindingContext = t;
             InitializeComponent();
         }
+
+        private void bt1(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ToolbarItens());
+        }
     }
 }
