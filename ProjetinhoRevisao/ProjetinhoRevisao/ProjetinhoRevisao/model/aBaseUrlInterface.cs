@@ -12,5 +12,3 @@ namespace ProjetinhoRevisao.model
         }
     }
 }
-
-

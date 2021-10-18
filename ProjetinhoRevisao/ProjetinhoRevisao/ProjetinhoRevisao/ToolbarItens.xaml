@@ -7,9 +7,9 @@
              x:Class="ProjetinhoRevisao.ToolbarItens">
     <ContentPage.ToolbarItems>
         <ToolbarItem  Text="Tapped1"
-                     Clicked="ToolbarItem_Clicked1" Order="Primary" />
+                     Clicked="ToolbarItem_Clicked1"  />
         <ToolbarItem  Text="Tapped2"
-                     Clicked="ToolbarItem_Clicked2" Order="Secondary" />
+                     Clicked="ToolbarItem_Clicked2"  />
     </ContentPage.ToolbarItems>
 </ContentPage>
 

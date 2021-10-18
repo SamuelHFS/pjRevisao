@@ -23,7 +23,10 @@ namespace ProjetinhoRevisao
             var html2 = new HtmlWebViewSource();
             html2.BaseUrl = DependencyService.Get<aIBaseUrl>().Get();
             wv1.Source = html2.BaseUrl;
+            
         }
+
+        
     }
 }
 
